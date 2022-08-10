@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/welcome",
+  "source": "@site/blog/2022-08-10-welcome/index.md",
+  "title": "Welcome",
+  "description": "Welcome to the morphysm blog.",
+  "date": "2022-08-10T00:00:00.000Z",
+  "formattedDate": "August 10, 2022",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "famed",
+      "permalink": "/blog/tags/famed"
+    },
+    {
+      "label": "morphysm",
+      "permalink": "/blog/tags/morphysm"
+    }
+  ],
+  "readingTime": 0.04,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Kilian Käslin",
+      "title": "Co-Founder",
+      "url": "https://github.com/kiliankae",
+      "imageURL": "https://github.com/kiliankae.png",
+      "key": "kilian"
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome",
+    "authors": [
+      "kilian"
+    ],
+    "tags": [
+      "hello",
+      "famed",
+      "morphysm"
+    ]
+  }
+}

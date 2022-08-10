@@ -11,8 +11,8 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "morphysm",
+  "projectName": "blog",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -25,13 +25,8 @@ export default {
     [
       "classic",
       {
-        "docs": {
-          "sidebarPath": "/Users/kiliankaslin/Documents/morphysm/blog/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "/Users/kiliankaslin/Documents/morphysm/blog/src/css/custom.css"
@@ -41,25 +36,19 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "Morphysm Blog",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
       },
       "items": [
         {
-          "type": "doc",
-          "docId": "intro",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
+          "to": "/",
           "label": "Blog",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/morphysm",
           "label": "GitHub",
           "position": "right"
         }
@@ -68,48 +57,8 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 Morphysm, Inc. Built with Docusaurus.",
+      "links": []
     },
     "prism": {
       "theme": {
