@@ -45,27 +45,27 @@
   "/archive-401": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---blog-453-c06"
+      "plugin": "plugin---archive-453-be7"
     },
     "archive": "archive---archive-2-e-8-25f"
   },
   "/tags-d75": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "plugin---blog-453-c06"
+      "plugin": "plugin---archive-453-be7"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "sidebar---tags-814-bd5",
     "tags": "tags---tagsc-57-e72"
   },
   "/tags/famed-799": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-453-c06"
+      "plugin": "plugin---archive-453-be7"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "sidebar---tags-814-bd5",
     "items": [
       {
-        "content": "content---blog-745-458"
+        "content": "content---tags-famed-745-5f3"
       }
     ],
     "tag": "tag---tags-famed-2-bf-dc6",
@@ -74,12 +74,12 @@
   "/tags/hello-cd5": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-453-c06"
+      "plugin": "plugin---archive-453-be7"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "sidebar---tags-814-bd5",
     "items": [
       {
-        "content": "content---blog-745-458"
+        "content": "content---tags-famed-745-5f3"
       }
     ],
     "tag": "tag---tags-hello-41-c-76e",
@@ -88,12 +88,12 @@
   "/tags/morphysm-496": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---blog-453-c06"
+      "plugin": "plugin---archive-453-be7"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "sidebar---tags-814-bd5",
     "items": [
       {
-        "content": "content---blog-745-458"
+        "content": "content---tags-famed-745-5f3"
       }
     ],
     "tag": "tag---tags-morphysmf-50-463",
@@ -102,10 +102,10 @@
   "/welcome-8fd": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-453-c06"
+      "plugin": "plugin---archive-453-be7"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomebc-5-d12"
+    "sidebar": "sidebar---tags-814-bd5",
+    "content": "content---welcomebc-5-5a9"
   },
   "/docs-f3d": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
@@ -121,12 +121,12 @@
   "/-648": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blog-453-c06"
+      "plugin": "plugin---archive-453-be7"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "sidebar---tags-814-bd5",
     "items": [
       {
-        "content": "content---blog-745-458"
+        "content": "content---tags-famed-745-5f3"
       }
     ],
     "metadata": "metadata---a-55-c63"

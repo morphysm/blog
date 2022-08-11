@@ -56,10 +56,20 @@ const config = {
         },
         items: [
           {
+            href: 'https://morphysm.com',
+            label: 'Morphysm',
+            position: 'right',
+          },
+          {
+            href: 'https://famed.morphysm.com',
+            label: 'Famed',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/morphysm',
             label: 'GitHub',
             position: 'right',
-          },
+          }
         ],
       },
       footer: {
