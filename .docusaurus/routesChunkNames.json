@@ -42,35 +42,22 @@
       "plugin": "plugin---docusaurus-debug-386-6a5"
     }
   },
-  "/blog-235": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
-    "__context": {
-      "plugin": "plugin---blog-453-c06"
-    },
-    "sidebar": "sidebar---blog-814-8ac",
-    "items": [
-      {
-        "content": "content---blog-745-458"
-      }
-    ],
-    "metadata": "metadata---blogb-2-b-df1"
-  },
-  "/blog/archive-ca6": {
+  "/archive-401": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
       "plugin": "plugin---blog-453-c06"
     },
-    "archive": "archive---blog-archiveb-2-f-393"
+    "archive": "archive---archive-2-e-8-25f"
   },
-  "/blog/tags-f5b": {
+  "/tags-d75": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
       "plugin": "plugin---blog-453-c06"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "tags": "tags---blog-tagsa-70-da2"
+    "tags": "tags---tagsc-57-e72"
   },
-  "/blog/tags/famed-7b6": {
+  "/tags/famed-799": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-453-c06"
@@ -81,10 +68,10 @@
         "content": "content---blog-745-458"
       }
     ],
-    "tag": "tag---blog-tags-fameddbd-e7d",
-    "listMetadata": "listMetadata---blog-tags-famedc-85-408"
+    "tag": "tag---tags-famed-2-bf-dc6",
+    "listMetadata": "listMetadata---tags-famed-9-d-9-489"
   },
-  "/blog/tags/hello-a11": {
+  "/tags/hello-cd5": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-453-c06"
@@ -95,10 +82,10 @@
         "content": "content---blog-745-458"
       }
     ],
-    "tag": "tag---blog-tags-hello-30-a-bed",
-    "listMetadata": "listMetadata---blog-tags-hello-664-70a"
+    "tag": "tag---tags-hello-41-c-76e",
+    "listMetadata": "listMetadata---tags-helloe-1-d-7df"
   },
-  "/blog/tags/morphysm-32b": {
+  "/tags/morphysm-496": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blog-453-c06"
@@ -109,23 +96,16 @@
         "content": "content---blog-745-458"
       }
     ],
-    "tag": "tag---blog-tags-morphysm-86-f-548",
-    "listMetadata": "listMetadata---blog-tags-morphysmc-49-be3"
+    "tag": "tag---tags-morphysmf-50-463",
+    "listMetadata": "listMetadata---tags-morphysm-539-7e9"
   },
-  "/blog/welcome-b64": {
+  "/welcome-8fd": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---blog-453-c06"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcomebc-5-d12"
-  },
-  "/markdown-page-3e9": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
-    "__context": {
-      "plugin": "plugin---markdown-pagebb-8-77e"
-    },
-    "content": "content---markdown-page-393-028"
   },
   "/docs-f3d": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
@@ -138,11 +118,17 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/-d82": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+  "/-648": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---markdown-pagebb-8-77e"
+      "plugin": "plugin---blog-453-c06"
     },
-    "config": "config---5-e-9-4f3"
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-745-458"
+      }
+    ],
+    "metadata": "metadata---a-55-c63"
   }
 }

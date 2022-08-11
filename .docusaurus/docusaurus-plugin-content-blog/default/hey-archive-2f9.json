@@ -1,0 +1,54 @@
+{
+  "blogPosts": [
+    {
+      "id": "welcome",
+      "metadata": {
+        "permalink": "/hey/welcome",
+        "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/2022-08-10-welcome/index.md",
+        "source": "@site/blog/2022-08-10-welcome/index.md",
+        "title": "Welcome",
+        "description": "Welcome to the morphysm blog.",
+        "date": "2022-08-10T00:00:00.000Z",
+        "formattedDate": "August 10, 2022",
+        "tags": [
+          {
+            "label": "hello",
+            "permalink": "/hey/tags/hello"
+          },
+          {
+            "label": "famed",
+            "permalink": "/hey/tags/famed"
+          },
+          {
+            "label": "morphysm",
+            "permalink": "/hey/tags/morphysm"
+          }
+        ],
+        "readingTime": 0.04,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Kilian Käslin",
+            "title": "Co-Founder",
+            "url": "https://github.com/kiliankae",
+            "imageURL": "https://github.com/kiliankae.png",
+            "key": "kilian"
+          }
+        ],
+        "frontMatter": {
+          "slug": "welcome",
+          "title": "Welcome",
+          "authors": [
+            "kilian"
+          ],
+          "tags": [
+            "hello",
+            "famed",
+            "morphysm"
+          ]
+        }
+      },
+      "content": "Welcome to the morphysm blog.\n\nMore comming soon..."
+    }
+  ]
+}

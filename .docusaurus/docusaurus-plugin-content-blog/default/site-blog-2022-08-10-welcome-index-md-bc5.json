@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/welcome",
+  "permalink": "/welcome",
   "source": "@site/blog/2022-08-10-welcome/index.md",
   "title": "Welcome",
   "description": "Welcome to the morphysm blog.",
@@ -8,15 +8,15 @@
   "tags": [
     {
       "label": "hello",
-      "permalink": "/blog/tags/hello"
+      "permalink": "/tags/hello"
     },
     {
       "label": "famed",
-      "permalink": "/blog/tags/famed"
+      "permalink": "/tags/famed"
     },
     {
       "label": "morphysm",
-      "permalink": "/blog/tags/morphysm"
+      "permalink": "/tags/morphysm"
     }
   ],
   "readingTime": 0.04,

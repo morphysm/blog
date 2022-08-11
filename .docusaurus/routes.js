@@ -38,43 +38,33 @@ export default [
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', '235'),
+    path: '/archive',
+    component: ComponentCreator('/archive', '401'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'ca6'),
+    path: '/tags',
+    component: ComponentCreator('/tags', 'd75'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'f5b'),
+    path: '/tags/famed',
+    component: ComponentCreator('/tags/famed', '799'),
     exact: true
   },
   {
-    path: '/blog/tags/famed',
-    component: ComponentCreator('/blog/tags/famed', '7b6'),
+    path: '/tags/hello',
+    component: ComponentCreator('/tags/hello', 'cd5'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'a11'),
+    path: '/tags/morphysm',
+    component: ComponentCreator('/tags/morphysm', '496'),
     exact: true
   },
   {
-    path: '/blog/tags/morphysm',
-    component: ComponentCreator('/blog/tags/morphysm', '32b'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'b64'),
-    exact: true
-  },
-  {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3e9'),
+    path: '/welcome',
+    component: ComponentCreator('/welcome', '8fd'),
     exact: true
   },
   {
@@ -91,7 +81,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'd82'),
+    component: ComponentCreator('/', '648'),
     exact: true
   },
   {

@@ -54,7 +54,7 @@
         {
           "id": "welcome",
           "metadata": {
-            "permalink": "/blog/welcome",
+            "permalink": "/welcome",
             "source": "@site/blog/2022-08-10-welcome/index.md",
             "title": "Welcome",
             "description": "Welcome to the morphysm blog.",
@@ -63,15 +63,15 @@
             "tags": [
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/tags/hello"
               },
               {
                 "label": "famed",
-                "permalink": "/blog/tags/famed"
+                "permalink": "/tags/famed"
               },
               {
                 "label": "morphysm",
-                "permalink": "/blog/tags/morphysm"
+                "permalink": "/tags/morphysm"
               }
             ],
             "readingTime": 0.04,
@@ -107,7 +107,7 @@
             "welcome"
           ],
           "metadata": {
-            "permalink": "/blog",
+            "permalink": "/",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -118,19 +118,19 @@
         }
       ],
       "blogTags": {
-        "/blog/tags/hello": {
+        "/tags/hello": {
           "label": "hello",
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/hello",
+          "permalink": "/tags/hello",
           "pages": [
             {
               "items": [
                 "welcome"
               ],
               "metadata": {
-                "permalink": "/blog/tags/hello",
+                "permalink": "/tags/hello",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -141,19 +141,19 @@
             }
           ]
         },
-        "/blog/tags/famed": {
+        "/tags/famed": {
           "label": "famed",
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/famed",
+          "permalink": "/tags/famed",
           "pages": [
             {
               "items": [
                 "welcome"
               ],
               "metadata": {
-                "permalink": "/blog/tags/famed",
+                "permalink": "/tags/famed",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -164,19 +164,19 @@
             }
           ]
         },
-        "/blog/tags/morphysm": {
+        "/tags/morphysm": {
           "label": "morphysm",
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/morphysm",
+          "permalink": "/tags/morphysm",
           "pages": [
             {
               "items": [
                 "welcome"
               ],
               "metadata": {
-                "permalink": "/blog/tags/morphysm",
+                "permalink": "/tags/morphysm",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
@@ -188,27 +188,8 @@
           ]
         }
       },
-      "blogTagsListPath": "/blog/tags"
+      "blogTagsListPath": "/tags"
     }
-  },
-  "docusaurus-plugin-content-pages": {
-    "default": [
-      {
-        "type": "jsx",
-        "permalink": "/",
-        "source": "@site/src/pages/index.tsx"
-      },
-      {
-        "type": "mdx",
-        "permalink": "/markdown-page",
-        "source": "@site/src/pages/markdown-page.md",
-        "title": "Markdown page example",
-        "description": "You don't need React to write simple standalone pages.",
-        "frontMatter": {
-          "title": "Markdown page example"
-        }
-      }
-    ]
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},

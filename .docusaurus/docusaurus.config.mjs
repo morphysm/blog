@@ -26,8 +26,11 @@ export default {
       "classic",
       {
         "blog": {
-          "showReadingTime": true
+          "showReadingTime": true,
+          "path": "blog",
+          "routeBasePath": "/"
         },
+        "pages": false,
         "theme": {
           "customCss": "/Users/kiliankaslin/Documents/morphysm/blog/src/css/custom.css"
         }
@@ -38,15 +41,10 @@ export default {
     "navbar": {
       "title": "Morphysm Blog",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Morphysm Logo",
         "src": "img/logo.svg"
       },
       "items": [
-        {
-          "to": "/",
-          "label": "Blog",
-          "position": "left"
-        },
         {
           "href": "https://github.com/morphysm",
           "label": "GitHub",
