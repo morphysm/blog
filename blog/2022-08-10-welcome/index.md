@@ -7,4 +7,4 @@ tags: [hello, famed, morphysm]
 
 Welcome to the morphysm blog.
 
-More comming soon...
+More comming soon..
