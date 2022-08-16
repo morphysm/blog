@@ -1,6 +1,5 @@
 name: publish-to-medium
 on: [push]
-​
 jobs:
   build:
     runs-on: ubuntu-latest
