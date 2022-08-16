@@ -21,10 +21,10 @@ jobs:
           done
       - if: steps.posts.outputs.post0
         name: Publish to medium
-        uses: infraway/post-medium-action@main
+        uses: infraway/post-medium-action@v1.5.0
         with:
           app_id: ${{ secrets.MEDIUM_APP_ID }}
           app_secret: ${{ secrets.MEDIUM_APP_SECRET }}
           access_token: ${{ secrets.MEDIUM_ACCESS_TOKEN }}
-          markdown_file: ./${{ steps.posts.outputs.post0 }}
+          markdown_file: ${{ steps.posts.outputs.post0 }}
           base_url: https://medium.com/@morphysm
