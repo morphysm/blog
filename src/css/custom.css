@@ -1,3 +1,6 @@
+/* Fonts */
+@import url("https://use.typekit.net/hcm5kkj.css");
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -6,25 +9,69 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #7456ff;
+  --ifm-color-primary-dark: #5834ff;
+  --ifm-color-primary-darker: #4a23ff;
+  --ifm-color-primary-darkest: #2a00ef;
+  --ifm-color-primary-light: #9078ff;
+  --ifm-color-primary-lighter: #9e89ff;
+  --ifm-color-primary-lightest: #c8bcff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-background-surface-color: #000;
+  --ifm-background-color: #000;
+
+  --ifm-footer-background-color: #232323;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+[data-theme='dark']:root {
+  --ifm-color-primary: #7456ff;
+  --ifm-color-primary-dark: #5834ff;
+  --ifm-color-primary-darker: #4a23ff;
+  --ifm-color-primary-darkest: #2a00ef;
+  --ifm-color-primary-light: #9078ff;
+  --ifm-color-primary-lighter: #9e89ff;
+  --ifm-color-primary-lightest: #c8bcff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-background-surface-color: #000;
+  --ifm-background-color: #000;
+
+  --ifm-navbar-height: 150px;
+  --ifm-navbar-padding-horizontal: 0;
+  --ifm-navbar-link-color: #808080;
+  
+  --ifm-font-family-base: "Poppins";
+ 
+  --ifm-color-content: #fff;
+  --ifm-link-color: #fff;
+  --ifm-color-secondary: #999999;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #232323;
+}
+
+.navbar__inner {
+  max-width: var(--ifm-container-width);
+  margin: auto;
+  padding: 0 var(--ifm-spacing-horizontal);
+}
+
+@media (min-width: 1440px) {
+  .navbar__inner {
+      max-width: var(--ifm-container-width-xl);
+  }
+}
+
+.navbar__logo {
+  width: 175px;
+}
+
+.sidebarItemTitle_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module {
+  font-size: 25px !important;
+  font-weight: 300 !important;
+  color: #999999;
 }

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Morphysm - Blog',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'News from the Morphoverse',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -48,25 +48,29 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+      },
       navbar: {
-        title: 'Morphysm Blog',
+        title: '',
         logo: {
           alt: 'Morphysm Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo-small-dark.svg',
         },
         items: [
           {
-            href: 'https://morphysm.com',
+            to: 'https://morphysm.com',
             label: 'Morphysm',
             position: 'right',
           },
           {
-            href: 'https://famed.morphysm.com',
+            to: 'https://famed.morphysm.com',
             label: 'Famed',
             position: 'right',
           },
           {
-            href: 'https://github.com/morphysm',
+            to: 'https://github.com/morphysm',
             label: 'GitHub',
             position: 'right',
           }

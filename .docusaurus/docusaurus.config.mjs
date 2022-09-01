@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Morphysm - Blog",
+  "tagline": "News from the Morphoverse",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -38,25 +38,30 @@ export default {
     ]
   ],
   "themeConfig": {
+    "colorMode": {
+      "defaultMode": "dark",
+      "disableSwitch": true,
+      "respectPrefersColorScheme": false
+    },
     "navbar": {
-      "title": "Morphysm Blog",
+      "title": "",
       "logo": {
         "alt": "Morphysm Logo",
-        "src": "img/logo.svg"
+        "src": "img/logo-small-dark.svg"
       },
       "items": [
         {
-          "href": "https://morphysm.com",
+          "to": "https://morphysm.com",
           "label": "Morphysm",
           "position": "right"
         },
         {
-          "href": "https://famed.morphysm.com",
+          "to": "https://famed.morphysm.com",
           "label": "Famed",
           "position": "right"
         },
         {
-          "href": "https://github.com/morphysm",
+          "to": "https://github.com/morphysm",
           "label": "GitHub",
           "position": "right"
         }
@@ -271,11 +276,6 @@ export default {
           }
         }
       ]
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",
