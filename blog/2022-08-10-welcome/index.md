@@ -4,8 +4,10 @@ title: Famed - Hello, World!
 authors: [0ksure]
 tags: [hello, world!, famed, morphysm]
 ---
+![logo](https://user-images.githubusercontent.com/110388591/189363826-3cc4abcb-6bea-44ca-b362-ddbdc3aecd8d.png)
 
 # Famed. Hello, world! 
+![nubelson-fernandes-UcYBL5V0xWQ-unsplash](https://user-images.githubusercontent.com/110388591/189362930-f8435839-5670-4d42-b63e-722b49e5409f.jpg)
 
 We proudly announce Famed — ***a protocol to generate security ratings for software security from public disclosure data.*** Famed is currently being developed as a GitHub App with 💜 by Morphysm, a Decentralized Community of Security Researchers. ***We believe Software Security is a fundamental value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good.***
 
