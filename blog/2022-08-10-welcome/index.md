@@ -1,5 +1,5 @@
 ---
-slug: welcome
+slug: Famed - Hello, World! 
 title: Famed - Hello, World! 
 authors: [0ksure]
 tags: [hello, world!, famed, morphysm]
@@ -31,14 +31,12 @@ To experience it yourself, [getFamed](https://github.com/marketplace/getfamed) f
 
 - A badge to demonstrate your commitments to Security for your Repository and Website
 
-[comment]: <Shorten Image >  
-[comment]: <![]()> 
+[comment]: <Shortened Image Badge >  
 
 - A Dynamic Wall of Fame for your Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools.
 
 
-[comment]: <Shorten Image  >
-![](https://i.imgur.com/p5x8z7q.png)
+[comment]: <Shortened Image Leaderboard >
 - Optionally: CI/CD Threat Modeling, Automated Static and Dynamic Scans for Security Vulnerabilities, especially for Smart Contracts  
 
 
