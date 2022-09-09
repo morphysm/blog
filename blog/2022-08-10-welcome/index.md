@@ -1,6 +1,6 @@
 ---
 slug: welcome
-title: Welcome
+title: Famed - Hello, World! 
 authors: [0ksure]
 tags: [hello, world!, famed, morphysm]
 ---
