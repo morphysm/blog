@@ -86,6 +86,7 @@ Essentially, the Famed DAO will develop three core incentive layers:
 1. With a staking mechanism, we create a strong incentive for bounty hunters, auditors, and security tools to find and report vulnerabilities, creating a security signal. 
 2. By rewarding developers for every fix of vulnerabilities, we incentivize them with a share in the security value they create.
 3. By enabling staking on the homomorphic security signal of each project in a prediction market, we generate a decentralized security oracle, turning the security value of projects into an asset and making that asset publicly visible throughout and outside of their ecosystems. 
+<img width="1423" alt="Screenshot 2022-09-09 at 15 05 34" src="https://user-images.githubusercontent.com/110388591/189358084-c7cae63d-90d6-4a47-8225-aeb4bde0d5c4.png">
 
 
 ### Further Reading:
