@@ -32,7 +32,7 @@ To experience it yourself, [getFamed](https://github.com/marketplace/getfamed) f
 - A badge to demonstrate your commitments to Security for your Repository and Website
 
 [comment]: <Shorten Image >  
-[comment]: <![](https://i.imgur.com/9HSrzne.png)>  
+[comment]: <![]()> 
 
 - A Dynamic Wall of Fame for your Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools.
 
