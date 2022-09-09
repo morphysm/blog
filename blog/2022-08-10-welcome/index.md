@@ -101,3 +101,6 @@ Prediction markets https://medium.com/veil-blog/a-guide-to-augur-market-economic
 Crowdsourcing mechanism http://dx.doi.org/10.2139/ssrn.2618837
 
 [comment]: <### Acknowledgements: #ToDo - add advisors and Thanks>
+
+![brands 6fd0e2688ef42b859233c4c62dde6c4b](https://user-images.githubusercontent.com/110388591/189356342-2f148cb2-3208-4184-b35f-830ce7305d4e.svg)
+
