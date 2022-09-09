@@ -64,7 +64,7 @@ In a setup consisting of teams for development, product, UX, marketing, and Secu
 > 
 > Marketing: Make people try out things!
 > 
-> Security: Secure all the things everyone else is doing ¯\_(ツ)_/¯
+> Security: Secure all the things everyone else is doing 🤷‍♂️
 > 
 
 With an ever-accelerating focus on UX, Development velocity, Product Release Velocity, Marketing & Sales, Security is more often a liability than an asset, causing cognitive dissonance and raising questions. 
