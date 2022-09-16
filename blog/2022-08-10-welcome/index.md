@@ -30,7 +30,7 @@ While Kerkoff's Principle/Shannon's maxim is a clear pole for what Security in *
 Vulnerabilities are part of a Bayesian Game of incomplete information with an unknown set of players - a game with many wrong and rarely any right answers; 
 How severe is this, and how difficult is it to deploy an exploit for an attacker? Who needs to know, balancing urgency and least privilege? Whitehat or stealth patch? Who are our attackers, and are they listening? When to inform all dependencies, when to notify users? Is there a process for these alerts on Sunday? Is this Bug even Security relevant?
 
-![image](https://user-images.githubusercontent.com/61067943/190792357-fa9c92e5-c8c6-4ede-a7a2-5493f3ddbd61.png)
+![Untitled 2](https://user-images.githubusercontent.com/61067943/190812038-645c6202-6e50-4166-96cc-4a0fba6729e5.png)
 
 
 Given good security hygiene and proactive policies, Security Signals traversal reports through many screens and heads on their journey through the vulnerability lifecycle. Balancing these trade-offs is a team sport. Suppose all goes well; while vulnerability originates in an obscure state, most teams follow Kerkoff's principle and publicly disclose vulnerabilities. Bugs become a trophy, a study subject, and a public good, hardening the affected system and its dependencies in the sense of Kerkoff's Principle.
