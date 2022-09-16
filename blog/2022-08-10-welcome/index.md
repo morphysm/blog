@@ -26,9 +26,8 @@ Next, we'll introduce the Famed GitHub app, a Software Security Extension to Git
 Security Reputation is a core value of modern Protocols and Applications to create and maintain user Trust. Essentially, Famed is establishing the following relationship:
 
         Security Reputation += Public Disclosure
-          
-     
-![image](https://user-images.githubusercontent.com/61067943/190606968-ee71092d-2f12-488d-9001-9f02a7c0898e.png)
+        
+![image](.Screen Shot 2022-09-16 at 17.45.43.png)
 
 
 #### What we have been working on:
