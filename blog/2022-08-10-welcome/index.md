@@ -29,7 +29,8 @@ The Famed App accelerates Projects in their transition and kickstarts their secu
 While Kerkoff's Principle/Shannon's maxim is a clear pole for what Security in *an ideal, mathematical world* means, in Practice, Security Signal emerges out of Obscurity in the head of Security Researchers or Attackers, with some lead for some Bugs. 
 
 Vulnerabilities are part of a Bayesian Game of incomplete information with an unknown set of players - a game with many wrong and rarely any right answers; 
-How severe is this, and how difficult is it to deploy an exploit for an attacker? Who needs to know, balancing urgency and least privilege? Whitehat or stealth patch? Who are our attackers, and are they listening? When to inform all dependencies, when to notify users? Is there a process for these alerts on Sunday? Is this Bug even Security relevant?
+*How severe is this bug, and how difficult is it to deploy an exploit for an attacker? 
+Who needs to know, balancing urgency and least privilege? Whitehat or stealth patch? Who are our attackers, and are they listening? When to inform all dependencies, when to notify users? Is there a process for these alerts on Sunday? Is this Bug even Security relevant?*
 
 ![Untitled 2](https://user-images.githubusercontent.com/61067943/190812038-645c6202-6e50-4166-96cc-4a0fba6729e5.png)
 
