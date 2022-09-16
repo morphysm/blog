@@ -7,7 +7,7 @@ tags: [hello, world!, famed, morphysm]
 ![logo03](https://user-images.githubusercontent.com/110388591/189366931-a9be8ba5-48c8-4445-8078-e040eecd1764.svg)
 
 
-# Famed. Hello, world! 
+# Hello, world! 
 
 We proudly announce Famed — ***an Open Source Protocol to generate “Fame” - Security Reputation based on CVE-rated public vulnerability disclosure data.***
 
