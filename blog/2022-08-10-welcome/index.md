@@ -13,10 +13,10 @@ We proudly announce Famed — ***an Open Source security reputation system for t
 
 Famed is currently an extension to the CVE program and is being developed as a [GitHub App](https://github.com/marketplace/getfamed) with 💜 by [morphysm.io](https://www.morphysm.io/), a Decentralized Community of Security Researchers. 
 
-Software Security is of paramount value to the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good. We are establishing a Decentralized Autonomous Organisation for Public Vulnerability Disclosure and Software Security Reputation. 
+Software Security is of paramount value to the Ethereum Ecosystem, Web3, the Open Source Community, all Humans and, therefore, a public good. 
 ![image](./globe.png)
 
-In this first post, we'll review some of our Design Goals for the Famed Security Reputation System, our Motivation to create a Decentralized Autonomous Organization for Security Reputation, and improve the Security of the Open Source Supply Chain and Public Goods. 
+In this first post, we'll review some of our Design Goals for the Famed Security Reputation System, our Motivation to evolve Morphysm into a Decentralized Autonomous Organization for Public Vulnerability Disclosure and Software Security Reputation. Our goal is to fundamentally improve the Security of the Open Source Supply Chain and Public Goods. 
 
 Next, we'll introduce the Famed GitHub App: a suite of CI/CD security-hygiene tools we developed for threat modeling, static- and dynamic vulnerability analysis. 
 The Famed App accelerates Projects in their transition and kickstarts their security reputation system with vulnerability lifecycle scoring & public vulnerability disclosure.
