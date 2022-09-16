@@ -1,31 +1,28 @@
----
-slug: Famed - Hello, World! 
-title: Famed - Hello, World! 
-authors: [0ksure]
-tags: [hello, world!, famed, morphysm]
----
-![logo03](https://user-images.githubusercontent.com/110388591/189366931-a9be8ba5-48c8-4445-8078-e040eecd1764.svg)
+# Famed. Hello, world! ![logo03](https://user-images.githubusercontent.com/110388591/189366931-a9be8ba5-48c8-4445-8078-e040eecd1764.svg)
 
 
-# Famed. Hello, world! 
+We proudly announce Famed — ***a protocol to generate security ratings for software security from public disclosure data.*** Famed is currently being developed as a GitHub App with 💜 by Morphysm, a Decentralized Community of Security Researchers. ***We believe Software Security is a fundamental value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good.***
 
 ![image](https://user-images.githubusercontent.com/61067943/190601794-16f165f3-02f1-49c5-a7d6-e0a988eb666e.png)
 
-We proudly announce Famed — ***a protocol to generate security ratings for software security from public disclosure data.*** Famed is currently being developed as a GitHub App with 💜 by Morphysm, a Decentralized Community of Security Researchers. ***We believe Software Security is a fundamental value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good.***
 
 In this first post, we'll review some of our Design Goals and the Motivation of the Famed score and reputation System, how we will create a Decentralized Network for Security Reputation and improve the Security of the Open Source Supply Chain. 
 
 Next, we'll introduce the Famed GitHub app, a Software Security Extension to Github, inheriting the security properties of a platform that developers and security teams already use and trust. 
 
+## What is Famed? 
+
 ###  Open Source Security Reputation: `Fame for Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools`
 
 Security Reputation is a core value of modern Protocols and Applications to create and maintain user Trust. Essentially, Famed is establishing the following relationship:
 
-          Security Reputation += Public Disclosure
+        Security Reputation += Public Disclosure
+          
+     
+![image](https://user-images.githubusercontent.com/61067943/190606968-ee71092d-2f12-488d-9001-9f02a7c0898e.png)
+
 
 #### What we have been working on:
-
-![image](https://user-images.githubusercontent.com/61067943/190602565-b876197c-db54-40b6-99e7-a0d1054f332f.png)
 
 
 - **Open, asynchronous, transitive Security Reputation:** Famed communicates your commitment, efforts & achievements to secure your Software - within your Organisation, to up&downstream dependencies, your Users, and the Outside World.
@@ -37,13 +34,8 @@ To experience it yourself, [getFamed](https://github.com/marketplace/getfamed) f
 
 - A badge to demonstrate your commitments to Security for your Repository and Website
 
-[comment]: <Shortened Image Badge >  
-![Badges](https://user-images.githubusercontent.com/110388591/189357779-7ead4581-04af-4b89-8bb4-1d1583243433.svg)
-
 - A Dynamic Wall of Fame for your Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools.
 
-
-[comment]: <Shortened Image Leaderboard >
 - Optionally: CI/CD Threat Modeling, Automated Static and Dynamic Scans for Security Vulnerabilities, especially for Smart Contracts  
 
 
@@ -60,6 +52,9 @@ The reality is, however, that Open Source Maintainers are effectively unpaid out
 
 In reality, Security done wrong prevents Developers from Developing, Designers from Designing, and Marketers from Marketing by increasing/overflowing FUD, and Cognitive dissonance is straightforward: Let's talk hardware supply chain attacks executed by insider threats. 
 In a setup consisting of teams for development, product, UX, marketing, and Security, the teams have the following objectives, sometimes KPIs:
+
+![image](https://user-images.githubusercontent.com/61067943/190602565-b876197c-db54-40b6-99e7-a0d1054f332f.png)
+
 
 > 
 > UX: Design things people will like to use!
@@ -109,4 +104,12 @@ Crowdsourcing mechanism http://dx.doi.org/10.2139/ssrn.2618837
 [comment]: <### Acknowledgements: #ToDo - add advisors and Thanks>
 
 ![brands 6fd0e2688ef42b859233c4c62dde6c4b](https://user-images.githubusercontent.com/110388591/189356342-2f148cb2-3208-4184-b35f-830ce7305d4e.svg)
+
+---
+slug: Famed - Hello, World! 
+title: Famed - Hello, World! 
+authors: [0ksure]
+tags: [hello, world!, famed, morphysm]
+---
+
 
