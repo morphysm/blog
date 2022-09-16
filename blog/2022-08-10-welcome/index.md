@@ -12,7 +12,7 @@ tags: [hello, world!, famed, morphysm]
 
 We proudly announce Famed — ***a protocol to generate security ratings for software security from public disclosure data.*** Famed is currently being developed as a GitHub App with 💜 by Morphysm, a Decentralized Community of Security Researchers. ***We believe Software Security is a fundamental value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good.***
 
-![image](https://user-images.githubusercontent.com/61067943/190601794-16f165f3-02f1-49c5-a7d6-e0a988eb666e.png)
+![image](./globe.png)
 
 
 In this first post, we'll review some of our Design Goals and the Motivation of the Famed score and reputation System, how we will create a Decentralized Network for Security Reputation and improve the Security of the Open Source Supply Chain. 
