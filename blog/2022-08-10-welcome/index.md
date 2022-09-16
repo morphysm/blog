@@ -18,7 +18,7 @@ Famed is currently being developed as a [GitHub App](https://github.com/marketpl
 
 In this first post, we'll review some of our Design Goals and the Motivation of the Famed score and reputation System, how we will create a Decentralized Network for Security Reputation and improve the Security of the Open Source Supply Chain. 
 
-Next, we'll introduce the Famed GitHub app, a Software Security Extension to Github, inheriting the security properties of a platform that developers and security teams already use and trust. 
+Next, we'll introduce the Famed GitHub App: a suite of CI/CD security-hygiene tools for Threat Modeling, Static- and Dynamic Vulnerability Analysis, and an end-to-end security vulnerability lifecycle management tool, to support customers in their security transformation.
 
 ## What is Famed? 
 
