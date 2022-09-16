@@ -47,7 +47,8 @@ To experience it yourself, [getFamed](https://github.com/marketplace/getfamed) f
 - Optionally: CI/CD Threat Modeling, Automated Static and Dynamic Scans for Security Vulnerabilities, especially for Smart Contracts  
 
 
-If you would like to learn more about what the Famed App can do for the Security of your Company, Organisation, or Project - follow us on Medium or subscribe to our blog 
+If you would like to learn more about what the Famed App can do for the Security of your Company, Organisation, or Project - follow us on Medium. 
+
 ## Why Famed? 
 ### Securing the Public Supply Chain - Which software stack can you (really) trust?
 
