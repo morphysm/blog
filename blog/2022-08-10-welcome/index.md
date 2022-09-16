@@ -11,7 +11,7 @@ tags: [hello, world!, famed, morphysm]
 
 We proudly announce Famed — ***an Open Source Protocol to generate “Fame” - Security Reputation based on CVE-rated public vulnerability disclosure data.***
 
-Famed is currently being developed as a [GitHub App](https://github.com/marketplace/getfamed) with 💜 by [morphysm.io](https://www.morphysm.io/), a Decentralized Community of Security Researchers. ***We believe Software Security is a fundamental value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good.***
+Famed is currently being developed as a [GitHub App](https://github.com/marketplace/getfamed) with 💜 by [morphysm.io](https://www.morphysm.io/), a Decentralized Community of Security Researchers. ***We believe Software Security is of paramount value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good.***
 
 ![image](./globe.png)
 
