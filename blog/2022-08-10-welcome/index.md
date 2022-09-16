@@ -38,9 +38,12 @@ Security Reputation is a core value of modern Protocols and Applications to crea
 - **OpSec and Privacy enabled Visibility:** Our security "Walls of Fame" seamlessly see who's on top and who needs to step up their game." everyone involved in the vulnerability lifecycle can see how things are going.
 - **Continuous Security Hygiene:** A suite of CI/CD tools for threat modeling, static & dynamic analysis, fuzzing, vulnerability bounties, and code audits. 
 
+![wall_of_fame](https://user-images.githubusercontent.com/61067943/190688424-62888b62-c5d5-4b04-9109-1b5b1f2a2023.png)
+
+
 To experience it yourself, [getFamed](https://github.com/marketplace/getfamed) for your GitHub Repository. Currently, this is what the Famed App will do for you: 
 
-- A badge to demonstrate your commitments to Security for your Repository and Website
+- A badge to diplay your commitments to Security for your Repository and Website
 
 - A Dynamic Wall of Fame for your Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools.
 
