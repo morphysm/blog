@@ -65,11 +65,6 @@ const config = {
             position: 'right',
           },
           {
-            to: 'https://famed.morphysm.com',
-            label: 'Famed',
-            position: 'right',
-          },
-          {
             to: 'https://github.com/morphysm',
             label: 'GitHub',
             position: 'right',
