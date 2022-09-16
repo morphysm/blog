@@ -9,7 +9,7 @@ tags: [hello, world!, famed, morphysm]
 
 # Famed. Hello, world! 
 
-![nubelson-fernandes-UcYBL5V0xWQ-unsplash](https://user-images.githubusercontent.com/110388591/189362930-f8435839-5670-4d42-b63e-722b49e5409f.jpg)
+![image](https://user-images.githubusercontent.com/61067943/190601794-16f165f3-02f1-49c5-a7d6-e0a988eb666e.png)
 
 We proudly announce Famed — ***a protocol to generate security ratings for software security from public disclosure data.*** Famed is currently being developed as a GitHub App with 💜 by Morphysm, a Decentralized Community of Security Researchers. ***We believe Software Security is a fundamental value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good.***
 
@@ -25,12 +25,13 @@ Security Reputation is a core value of modern Protocols and Applications to crea
 
 #### What we have been working on:
 
+![image](https://user-images.githubusercontent.com/61067943/190602565-b876197c-db54-40b6-99e7-a0d1054f332f.png)
+
 
 - **Open, asynchronous, transitive Security Reputation:** Famed communicates your commitment, efforts & achievements to secure your Software - within your Organisation, to up&downstream dependencies, your Users, and the Outside World.
 - **Blue Team Rewards:** Reward functions incentivize all players (Blue Teamers, Red Teamers, Auditors, Bounty Hunters, and Tools) of the security game to spot & patch vulnerabilities and receive rewards for their efforts.
 - **OpSec and Privacy enabled Visibility:** Our security "Walls of Fame" seamlessly see who's on top and who needs to step up their game." everyone involved in the vulnerability lifecycle can see how things are going.
 - **Continuous Security Hygiene:** A suite of CI/CD tools for threat modeling, static & dynamic analysis, fuzzing, vulnerability bounties, and code audits. 
-<img width="1422" alt="Screenshot 2022-09-09 at 14 52 09" src="https://user-images.githubusercontent.com/110388591/189355019-dee99045-86db-4bf6-a4c6-976b7a44f01f.png">
 
 To experience it yourself, [getFamed](https://github.com/marketplace/getfamed) for your GitHub Repository. Currently, this is what the Famed App will do for you: 
 
@@ -90,7 +91,6 @@ Essentially, the Famed DAO will develop three core incentive layers:
 1. With a staking mechanism, we create a strong incentive for bounty hunters, auditors, and security tools to find and report vulnerabilities, creating a security signal. 
 2. By rewarding developers for every fix of vulnerabilities, we incentivize them with a share in the security value they create.
 3. By enabling staking on the homomorphic security signal of each project in a prediction market, we generate a decentralized security oracle, turning the security value of projects into an asset and making that asset publicly visible throughout and outside of their ecosystems. 
-<img width="1423" alt="Screenshot 2022-09-09 at 15 05 34" src="https://user-images.githubusercontent.com/110388591/189358084-c7cae63d-90d6-4a47-8225-aeb4bde0d5c4.png">
 
 
 ### Further Reading:
