@@ -1,18 +1,22 @@
 {
   "blogPosts": [
     {
-      "id": "welcome",
+      "id": "Famed - Hello, World!",
       "metadata": {
-        "permalink": "/welcome",
+        "permalink": "/Famed - Hello, World!",
         "source": "@site/blog/2022-08-10-welcome/index.md",
-        "title": "Welcome",
-        "description": "Welcome to the morphysm blog.",
+        "title": "Famed - Hello, World!",
+        "description": "logo03",
         "date": "2022-08-10T00:00:00.000Z",
         "formattedDate": "August 10, 2022",
         "tags": [
           {
             "label": "hello",
             "permalink": "/tags/hello"
+          },
+          {
+            "label": "world!",
+            "permalink": "/tags/world"
           },
           {
             "label": "famed",
@@ -23,31 +27,32 @@
             "permalink": "/tags/morphysm"
           }
         ],
-        "readingTime": 0.04,
+        "readingTime": 4.915,
         "hasTruncateMarker": false,
         "authors": [
           {
-            "name": "Kilian Käslin",
-            "title": "Co-Founder",
-            "url": "https://github.com/kiliankae",
-            "imageURL": "https://github.com/kiliankae.png",
-            "key": "kilian"
+            "name": "0ksure",
+            "title": "Average_User",
+            "url": "https://github.com/0kSure",
+            "imageURL": "https://github.com/0kSure.png",
+            "key": "0ksure"
           }
         ],
         "frontMatter": {
-          "slug": "welcome",
-          "title": "Welcome",
+          "slug": "Famed - Hello, World!",
+          "title": "Famed - Hello, World!",
           "authors": [
-            "kilian"
+            "0ksure"
           ],
           "tags": [
             "hello",
+            "world!",
             "famed",
             "morphysm"
           ]
         }
       },
-      "content": "Welcome to the morphysm blog.\n\nMore comming soon.."
+      "content": "![logo03](https://user-images.githubusercontent.com/110388591/189366931-a9be8ba5-48c8-4445-8078-e040eecd1764.svg)\n\n\n# Famed. Hello, world! \n\n\nWe proudly announce Famed — ***a protocol to generate security ratings for software security from public disclosure data.*** Famed is currently being developed as a GitHub App with 💜 by Morphysm, a Decentralized Community of Security Researchers. ***We believe Software Security is a fundamental value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good.***\n\n![image](https://user-images.githubusercontent.com/61067943/190601794-16f165f3-02f1-49c5-a7d6-e0a988eb666e.png)\n\n\nIn this first post, we'll review some of our Design Goals and the Motivation of the Famed score and reputation System, how we will create a Decentralized Network for Security Reputation and improve the Security of the Open Source Supply Chain. \n\nNext, we'll introduce the Famed GitHub app, a Software Security Extension to Github, inheriting the security properties of a platform that developers and security teams already use and trust. \n\n## What is Famed? \n\n###  Open Source Security Reputation: `Fame for Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools`\n\nSecurity Reputation is a core value of modern Protocols and Applications to create and maintain user Trust. Essentially, Famed is establishing the following relationship:\n\n        Security Reputation += Public Disclosure\n![image](./flow.png)\n\n\n#### What we have been working on:\n\n\n- **Open, asynchronous, transitive Security Reputation:** Famed communicates your commitment, efforts & achievements to secure your Software - within your Organisation, to up&downstream dependencies, your Users, and the Outside World.\n- **Blue Team Rewards:** Reward functions incentivize all players (Blue Teamers, Red Teamers, Auditors, Bounty Hunters, and Tools) of the security game to spot & patch vulnerabilities and receive rewards for their efforts.\n- **OpSec and Privacy enabled Visibility:** Our security \"Walls of Fame\" seamlessly see who's on top and who needs to step up their game.\" everyone involved in the vulnerability lifecycle can see how things are going.\n- **Continuous Security Hygiene:** A suite of CI/CD tools for threat modeling, static & dynamic analysis, fuzzing, vulnerability bounties, and code audits. \n\nTo experience it yourself, [getFamed](https://github.com/marketplace/getfamed) for your GitHub Repository. Currently, this is what the Famed App will do for you: \n\n- A badge to demonstrate your commitments to Security for your Repository and Website\n\n- A Dynamic Wall of Fame for your Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools.\n\n- Optionally: CI/CD Threat Modeling, Automated Static and Dynamic Scans for Security Vulnerabilities, especially for Smart Contracts  \n\n\nIf you would like to learn more about what the Famed App can do for the Security of your Company, Organisation, or Project - follow us on Medium or subscribe to our blog \n## Why Famed? \n### Securing the Public Supply Chain - Which software stack can you (really) trust?\n\nFor Open Source Software, everyone can get a code smell, review public audits, evaluate security hygiene, deeply audit the source code, file a Security Advisory, disclose a Security Bug, or even file a PR to harden a codebase against emerging Threats. \nThe reality is, however, that Open Source Maintainers are effectively unpaid outsourcing teams for giant corporations relying on their Code. When the log4j Remote Code Execution Vulnerability was disclosed in 2021, an Alibaba engineer told the log4j team: 'Please hurry up'. Alibaba has a market cap of $348 billion, while a handful of volunteers maintain log4j. \n\n\n### Is Security doomed to be a *conflicting objective*? \n\n\nIn reality, Security done wrong prevents Developers from Developing, Designers from Designing, and Marketers from Marketing by increasing/overflowing FUD, and Cognitive dissonance is straightforward: Let's talk hardware supply chain attacks executed by insider threats. \nIn a setup consisting of teams for development, product, UX, marketing, and Security, the teams have the following objectives, sometimes KPIs:\n\n![image](https://user-images.githubusercontent.com/61067943/190602565-b876197c-db54-40b6-99e7-a0d1054f332f.png)\n\n\n> \n> UX: Design things people will like to use!\n> \n> Development: Develop things!\n> \n> Product: Make things people will buy!\n> \n> Marketing: Make people try out things!\n> \n> Security: Secure all the things everyone else is doing 🤷‍♂️\n> \n\nWith an ever-accelerating focus on UX, Development velocity, Product Release Velocity, Marketing & Sales, Security is more often a liability than an asset, causing cognitive dissonance and raising questions. \n\n\n### What you are signing up for: We are on a mission to Secure Public Goods by making Security an asset instead of a liability. \n\nFamed will attempt to solve these problems with a decentralized, homomorphic security economy based on recent advances in zero-knowledge proofs and homomorphic encryption. We set out to build a *security prediction market* and a *decentralized security oracle* for the wWb3 and Open Source community with the long-term goal to turn Security into an asset, yielding surplus value to the project, which is generating the underlying security market signal.  \n\nThe design goal of this setup is to improve the Security of projects in the FOSS space by aligning the incentives of all parties involved. Famed additionally aims to\n- Enable Security Value creation \n- enable understaffed but system-relevant projects (log4j) to get funding to improve their security posture from the community in an incentivized way\n- Develop formal incentives and create shared Security Value in the vulnerability lifecycle \n- Generate a clear transparent signal to evaluate the Security of a project \n\nEssentially, the Famed DAO will develop three core incentive layers: \n\n1. With a staking mechanism, we create a strong incentive for bounty hunters, auditors, and security tools to find and report vulnerabilities, creating a security signal. \n2. By rewarding developers for every fix of vulnerabilities, we incentivize them with a share in the security value they create.\n3. By enabling staking on the homomorphic security signal of each project in a prediction market, we generate a decentralized security oracle, turning the security value of projects into an asset and making that asset publicly visible throughout and outside of their ecosystems. \n\n\n### Further Reading:\n\nRetroactive public goods funding https://medium.com/ethereum-optimism/retroactive-public-goods-funding-33c9b7d00f0c\n\nEthereum and Game Theory https://medium.com/@virgilgr/ethereum-is-game-changing-technology-literally-d67e01a01cf8\n\nStaking beyond consensus https://www.theblockcrypto.com/post/56263/staking-beyond-consensus-decentralized-digital-labor-markets\nand for Aave https://docs.aave.com/faq/migration-and-staking#:~:text=Staking%20consists%20of%20depositing%20your,stakers%20will%20receive%20Safety%20Incentives.\n\nPrediction markets https://medium.com/veil-blog/a-guide-to-augur-market-economics-16c66d956b6c https://docs.gnosis.io/conditionaltokens/docs/introduction1/\n\nCrowdsourcing mechanism http://dx.doi.org/10.2139/ssrn.2618837\n\n[comment]: <### Acknowledgements: #ToDo - add advisors and Thanks>\n\n![brands 6fd0e2688ef42b859233c4c62dde6c4b](https://user-images.githubusercontent.com/110388591/189356342-2f148cb2-3208-4184-b35f-830ce7305d4e.svg)"
     }
   ]
 }

@@ -43,6 +43,11 @@ export default [
     exact: true
   },
   {
+    path: '/Famed - Hello, World!',
+    component: ComponentCreator('/Famed - Hello, World!', '436'),
+    exact: true
+  },
+  {
     path: '/tags',
     component: ComponentCreator('/tags', 'd75'),
     exact: true
@@ -63,8 +68,8 @@ export default [
     exact: true
   },
   {
-    path: '/welcome',
-    component: ComponentCreator('/welcome', '8fd'),
+    path: '/tags/world',
+    component: ComponentCreator('/tags/world', '118'),
     exact: true
   },
   {

@@ -1,14 +1,18 @@
 {
-  "permalink": "/welcome",
+  "permalink": "/Famed - Hello, World!",
   "source": "@site/blog/2022-08-10-welcome/index.md",
-  "title": "Welcome",
-  "description": "Welcome to the morphysm blog.",
+  "title": "Famed - Hello, World!",
+  "description": "logo03",
   "date": "2022-08-10T00:00:00.000Z",
   "formattedDate": "August 10, 2022",
   "tags": [
     {
       "label": "hello",
       "permalink": "/tags/hello"
+    },
+    {
+      "label": "world!",
+      "permalink": "/tags/world"
     },
     {
       "label": "famed",
@@ -19,25 +23,26 @@
       "permalink": "/tags/morphysm"
     }
   ],
-  "readingTime": 0.04,
+  "readingTime": 4.915,
   "hasTruncateMarker": false,
   "authors": [
     {
-      "name": "Kilian Käslin",
-      "title": "Co-Founder",
-      "url": "https://github.com/kiliankae",
-      "imageURL": "https://github.com/kiliankae.png",
-      "key": "kilian"
+      "name": "0ksure",
+      "title": "Average_User",
+      "url": "https://github.com/0kSure",
+      "imageURL": "https://github.com/0kSure.png",
+      "key": "0ksure"
     }
   ],
   "frontMatter": {
-    "slug": "welcome",
-    "title": "Welcome",
+    "slug": "Famed - Hello, World!",
+    "title": "Famed - Hello, World!",
     "authors": [
-      "kilian"
+      "0ksure"
     ],
     "tags": [
       "hello",
+      "world!",
       "famed",
       "morphysm"
     ]
