@@ -9,31 +9,53 @@ tags: [hello, world!, famed, morphysm]
 
 # Hello, world! 
 
-We proudly announce Famed — ***an Open Source Protocol to generate “Fame” - Security Reputation based on CVE-rated public vulnerability disclosure data.***
+We proudly announce Famed — ***an Open Source security reputation system for the vulnerability lifecycle & public vulnerability disclosure.***
 
-Famed is currently being developed as a [GitHub App](https://github.com/marketplace/getfamed) with 💜 by [morphysm.io](https://www.morphysm.io/), a Decentralized Community of Security Researchers. ***We believe Software Security is of paramount value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good.***
+Famed is currently an extension to the CVE program and being developed as a [GitHub App](https://github.com/marketplace/getfamed) with 💜 by [morphysm.io](https://www.morphysm.io/), a Decentralized Community of Security Researchers. 
+
+Software Security is of paramount value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good. We are establishing a Decentralized Autonomous Organisation for Public Vulnerability Disclosure and Software Security Reputation. If you think you have something to contribute, send us an Email to contact at morphysm dot com to start creating with us in the early days.
+
 
 ![image](./globe.png)
 
 
-In this first post, we'll review some of our Design Goals and the Motivation of the Famed score and reputation System, how we will create a Decentralized Network for Security Reputation and improve the Security of the Open Source Supply Chain. 
+In this first post, we'll review some of our Design Goals and the Motivation of the Famed Reputation System, how we will create a Decentralized Autonomous Organization for Security Reputation and improve the Security of the Open Source Supply Chain and the Public Goods. 
 
-Next, we'll introduce the Famed GitHub App: a suite of CI/CD security-hygiene tools for Threat Modeling, Static- and Dynamic Vulnerability Analysis, and an end-to-end security vulnerability lifecycle management tool, to support customers in their security transformation.
+Next, we'll introduce the Famed GitHub App: a suite of CI/CD security-hygiene tools for threat modeling, static- and dynamic vulnerability analysis, and an end-to-end security vulnerability lifecycle management tool, to support customers in their security transformation.
 
-## What is Famed? 
+## What is Famed? A Bayesian Game of Security Signals 
 
-###  Open Source Security Reputation: `Fame for Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools`
+> A system should be secure, even if everything about the system, except secret keys, are public knowledge. 
 
-Security Reputation is a core value of modern Protocols and Applications to create and maintain user Trust. Essentially, Famed is establishing the following relationship:
+While Kerkoff's Principle/Shannon's maxim is a clear pole for what Security in *ideal, mathematical world* means. In Practice, Security Signal emerges out of Obscurity in the head of Security Researchers or Attackers, with some lead for some Bug. 
+
+When vulnerabilties are identified, they become part of a Bayesan Game of incomplete information with an unknown set of players - a game with many wrong and rarely right answers; 
+How severe is this and how difficult is it to deploy an exploit for an attacker? Who needs to know, considering urgency and least privilidge? Whitehack or stealth patch? Who are our attackers, are they listening? When to inform all dependencies, when to inform users? Is there a process for these alerts on Sunday? Is this Bug even Security relevant?
+
+Given good security-hygiene and pro-active policies, Security Signals traversal reports through many screen and heads on their journey through the  vulnerability lifecycle, and balancing these trade-offs is a team-sport. If all goes well, while vulnerability originates in an obscure state, eventually being publicly disclosed. Bugs become a trophy, a study subject and a public good, hardening the affected system and its dependencies in the sense of Kerkoff's Principle.
+
+Sometimes, this doesn't go well. While tremendous progress has been made to secure and encrypt base layer protocols, an exponential growth in lines of code, makes it increasingly difficult to even fully understand what needs to be defended, and for the foreseeable future, attackers will attack while defenders will defend. 
+
+
+
+While the nuances of Security Reputation are out of scope for this post, Famed is establishing the following relationship:
 
         Security Reputation += Public Disclosure
+
+
+
+###  Open Source Security Reputation: `Fame for the Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools`
+
+
+Reward all players (SOC Bounties for Blue Teamers, Security Engineers, Security Analysts) of the security game in your project to spot & patch vulnerabilities  
+
+
 ![image](./flow.png)
 
 
 #### What we have been working on:
 
-
-- **Open, asynchronous, transitive Security Reputation:** Famed communicates your commitment, efforts & achievements to secure your Software - within your Organisation, to up&downstream dependencies, your Users, and the Outside World.
+- **Open, asynchronous, transitive Security Reputation:**  Famed communicates your commitment, efforts & achievements to secure your Software - within your Organisation, to up&downstream dependencies, your Users, and the Outside World. 
 - **Blue Team Rewards:** Reward functions incentivize all players (Blue Teamers, Red Teamers, Auditors, Bounty Hunters, and Tools) of the security game to spot & patch vulnerabilities and receive rewards for their efforts.
 - **OpSec and Privacy enabled Visibility:** Our security "Walls of Fame" seamlessly see who's on top and who needs to step up their game." everyone involved in the vulnerability lifecycle can see how things are going.
 - **Continuous Security Hygiene:** A suite of CI/CD tools for threat modeling, static & dynamic analysis, fuzzing, vulnerability bounties, and code audits. 
@@ -41,9 +63,9 @@ Security Reputation is a core value of modern Protocols and Applications to crea
 ![wall_of_fame](https://user-images.githubusercontent.com/61067943/190688424-62888b62-c5d5-4b04-9109-1b5b1f2a2023.png)
 
 
-To experience it yourself, [getFamed](https://github.com/marketplace/getfamed) for your GitHub Repository. Currently, this is what the Famed App will do for you: 
+You can [getFamed](https://github.com/marketplace/getfamed) for your GitHub Repository, currently, this is what the Famed App will do for you: 
 
-- A badge to diplay your commitments to Security for your Repository and Website
+- A badge to diplay your commitment to Software Security, displaying the Security Reputation of your Repository and Website
 
 - A Dynamic Wall of Fame for your Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools.
 
