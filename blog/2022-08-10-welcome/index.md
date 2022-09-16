@@ -11,34 +11,35 @@ tags: [hello, world!, famed, morphysm]
 
 We proudly announce Famed — ***an Open Source security reputation system for the vulnerability lifecycle & public vulnerability disclosure.***
 
-Famed is currently an extension to the CVE program and being developed as a [GitHub App](https://github.com/marketplace/getfamed) with 💜 by [morphysm.io](https://www.morphysm.io/), a Decentralized Community of Security Researchers. 
+Famed is currently an extension to the CVE program and is being developed as a [GitHub App](https://github.com/marketplace/getfamed) with 💜 by [morphysm.io](https://www.morphysm.io/), a Decentralized Community of Security Researchers. 
 
-Software Security is of paramount value of the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good. We are establishing a Decentralized Autonomous Organisation for Public Vulnerability Disclosure and Software Security Reputation. 
+Software Security is of paramount value to the Ethereum Ecosystem, Web3, the Open Source Community, and all Humans and, therefore, a public good. We are establishing a Decentralized Autonomous Organisation for Public Vulnerability Disclosure and Software Security Reputation. 
 ![image](./globe.png)
 
-In this first post, we'll review some of our Design Goals and the Motivation of the Famed Reputation System, how we will create a Decentralized Autonomous Organization for Security Reputation and improve the Security of the Open Source Supply Chain and the Public Goods. 
+In this first post, we'll review some of our Design Goals for the Famed Security Reputation System, our Motivation to create a Decentralized Autonomous Organization for Security Reputation, and improve the Security of the Open Source Supply Chain and Public Goods. 
 
-Next, we'll introduce the Famed GitHub App: a suite of CI/CD security-hygiene tools for threat modeling, static- and dynamic vulnerability analysis, and an end-to-end security vulnerability lifecycle management tool, to support customers in their security transformation.
+Next, we'll introduce the Famed GitHub App: a suite of CI/CD security-hygiene tools we developed for threat modeling, static- and dynamic vulnerability analysis. 
+The Famed App accelerates Projects in their transition and kickstarts their security reputation system with vulnerability lifecycle scoring & public vulnerability disclosure.
 
 ## What is Famed? A Bayesian Game of Security Signals 
 
-> A system should be secure, even if everything about the system, except secret keys, are public knowledge. 
+> A system should be secure, even if everything about the system, except secret keys, is public knowledge. 
 
-While Kerkoff's Principle/Shannon's maxim is a clear pole for what Security in *ideal, mathematical world* means. In Practice, Security Signal emerges out of Obscurity in the head of Security Researchers or Attackers, with some lead for some Bug. 
+While Kerkoff's Principle/Shannon's maxim is a clear pole for what Security in *an ideal, mathematical world* means, in Practice, Security Signal emerges out of Obscurity in the head of Security Researchers or Attackers, with some lead for some Bugs. 
 
-When vulnerabilties are identified, they become part of a Bayesan Game of incomplete information with an unknown set of players - a game with many wrong and rarely right answers; 
-How severe is this and how difficult is it to deploy an exploit for an attacker? Who needs to know, balancing urgency and least privilidge? Whitehack or stealth patch? Who are our attackers, are they listening? When to inform all dependencies, when to inform users? Is there a process for these alerts on Sunday? Is this Bug even Security relevant?
+Vulnerabilities are part of a Bayesian Game of incomplete information with an unknown set of players - a game with many wrong and rarely any right answers; 
+How severe is this, and how difficult is it to deploy an exploit for an attacker? Who needs to know, balancing urgency and least privilege? Whitehat or stealth patch? Who are our attackers, and are they listening? When to inform all dependencies, when to notify users? Is there a process for these alerts on Sunday? Is this Bug even Security relevant?
 
 ![image](https://user-images.githubusercontent.com/61067943/190792357-fa9c92e5-c8c6-4ede-a7a2-5493f3ddbd61.png)
 
 
-Given good security-hygiene and pro-active policies, Security Signals traversal reports through many screen and heads on their journey through the  vulnerability lifecycle, and balancing these trade-offs is a team-sport. If all goes well, while vulnerability originates in an obscure state, eventually being publicly disclosed. Bugs become a trophy, a study subject and a public good, hardening the affected system and its dependencies in the sense of Kerkoff's Principle.
+Given good security hygiene and proactive policies, Security Signals traversal reports through many screens and heads on their journey through the vulnerability lifecycle. Balancing these trade-offs is a team sport. Suppose all goes well; while vulnerability originates in an obscure state, most teams follow Kerkoff's principle and publicly disclose vulnerabilities. Bugs become a trophy, a study subject, and a public good, hardening the affected system and its dependencies in the sense of Kerkoff's Principle.
 
-But is this is this best we can do? Sometimes (... Twitter, Log4j, TikTok, Uber ... ) go very wrong. Millions loose their confidential data or assets to cyber criminals. An exponential growth in lines of code, makes it increasingly difficult to even fully understand what needs to be defended, and for the foreseeable future, attackers will attack while defenders will defend. 
+But is this the best we can do? Sometimes (... Twitter, Log4j, TikTok, Uber ... ) go very wrong. Millions lose their confidential data or assets to cyber criminals. Exponential growth in lines of code makes it increasingly difficult to fully understand what is a priority to defense. For the foreseeable future, attackers will attack while defenders will defend. 
 
-The best we can do in this infinite Bayesian Security Game is to shift the equivilibira; backup the defenders and create aligned incentives. This is one of the core ideas of Famed: Open Source Security Reputation: `Fame for all the players; the SOC, the Blue Teamers, Red Teamers, Auditors, Bounty Hunters, Security Analysts and Tools for spotting & patching vulnerabilities before they are exploited. They are no heroes, they just deserve a bonus. 
+The best we can do in this infinite Bayesian Security Game is to shift the equilibria, backup the defenders, and create aligned incentives. Open Source Security Reputation is one of the core ideas of Famed: `Fame for all the players but the Attackers; the SOC, the Blue Teamers, Red Teamers, Auditors, Bounty Hunters, Security Analysts and Tools for spotting & patching vulnerabilities before they are exploited. They are no heroes; they deserve a bonus. 
 
-While the nuances of the Fame Security Reputation System are out of scope for this post, one of the most powerful mechanisms in Famed's Security Reputation System is to *incentivse projects to publicly disclosing their vulnerabilities*:
+While the nuances of the Fame Security Reputation System are out of scope for this post, one of the most potent mechanisms in Famed's Security Reputation System is to *incentivize projects to publicly disclose their vulnerabilities*:
 
         Security Reputation += Public Disclosure
 
@@ -56,7 +57,7 @@ While the nuances of the Fame Security Reputation System are out of scope for th
 ![wall_of_fame](https://user-images.githubusercontent.com/61067943/190688424-62888b62-c5d5-4b04-9109-1b5b1f2a2023.png)
 
 
-Your GitHub Repository can [getFamed](https://github.com/marketplace/getfamed) now, currently, this is what the Famed App will do for you: 
+Your GitHub Repository can [getFamed](https://github.com/marketplace/getfamed) now. Currently, this is what the Famed App will do for your code's hygiene: 
 
 - ***A badge displaying the Security Reputation of your Repository and Website***
 
@@ -65,4 +66,4 @@ Your GitHub Repository can [getFamed](https://github.com/marketplace/getfamed) n
 - Optionally: CI/CD Threat Modeling, Automated Static and Dynamic Scans for Security Vulnerabilities, especially for Smart Contracts  
 
 
-If you would like to learn more about what the Famed App can do for the Security of your Company, Organisation, or Project - follow us on Medium. If you think you have something to contribute, send us an Email to contact at morphysm dot com to start creating with us in the early days of emerging Security Economy.
+If you want to learn more about what the Famed App can do for the Security of your Company, Organisation, or Project - follow us on Medium. If you think you have something to contribute, send us an Email to contact [at] morphysm [dot] com to create with us in the early days of the emerging Security Economy.
