@@ -64,7 +64,7 @@ Your GitHub Repository can [getFamed](https://github.com/marketplace/getfamed) n
 
 - ***A Dynamic Wall of Fame*** for your Blue Teamers, Red Teamers, Auditors, Bounty Hunters and Tools.
 
-- Optionally: CI/CD Threat Modeling, Automated Static and Dynamic Scans for Security Vulnerabilities, especially for Smart Contracts  
+- Optionally: CI Threat Modeling, Automated Static and Dynamic Scans for Security Vulnerabilities, especially for Smart Contracts  
 
 
 If you want to learn more about what the Famed App can do for the Security of your Company, Organisation, or Project - follow us on Medium. If you think you have something to contribute, send us an Email to contact [at] morphysm [dot] com to create with us in the early days of the emerging Security Economy.
